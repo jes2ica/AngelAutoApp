@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6LX-dQ-cHK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wvU-4L-Bmm">
+            <objects>
+                <viewController id="6LX-dQ-cHK" customClass="ViewController" customModule="AngelAuto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wCj-ed-zjE"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fqd-Im-fQb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZoX-lg-9g5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JV8-Jz-xFt">
+                                <rect key="frame" x="209" y="467" width="183" height="42"/>
+                                <state key="normal" title="SIGN UP">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Uye-Jo-YNN" kind="show" id="J98-QA-Cq0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4e-mp-rJ9">
+                                <rect key="frame" x="209" y="397" width="183" height="42"/>
+                                <color key="backgroundColor" red="0.35896670479999998" green="0.8210945691" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="SIGN IN">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="agu-xh-FEl" kind="show" id="eW0-vZ-DOK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="d4e-mp-rJ9" secondAttribute="centerX" id="LNW-Hp-HJy"/>
+                            <constraint firstAttribute="centerX" secondItem="JV8-Jz-xFt" secondAttribute="centerX" id="roX-4z-j3T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="signInBtn" destination="d4e-mp-rJ9" id="Gbr-2j-roe"/>
+                        <outlet property="signUpButton" destination="JV8-Jz-xFt" id="ZnC-bE-Ogs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="btJ-ZW-Rmx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-947" y="62"/>
+        </scene>
+        <!--SignUpViewController-->
+        <scene sceneID="lLS-e8-bu9">
+            <objects>
+                <viewController title="SignUpViewController" id="Uye-Jo-YNN" customClass="SignUpViewController" customModule="AngelAuto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i7T-WM-Qbh"/>
+                        <viewControllerLayoutGuide type="bottom" id="9sC-Xt-V5a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nsx-dF-Zdh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1RI-Ce-c9l">
+                                <rect key="frame" x="160" y="195" width="281" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="EMAIL" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f7d-2F-QJN">
+                                <rect key="frame" x="160" y="240" width="281" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PHONE" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WSp-Bs-OBw">
+                                <rect key="frame" x="160" y="285" width="281" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pWi-uI-q3Q">
+                                <rect key="frame" x="160" y="330" width="281" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CONFIRM PASSWORD" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Qz-vN-zLa">
+                                <rect key="frame" x="160" y="375" width="281" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZxC-l7-nOg">
+                                <rect key="frame" x="203" y="51" width="195" height="117"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpo-7x-vDl">
+                                <rect key="frame" x="197" y="432" width="207" height="42"/>
+                                <color key="backgroundColor" red="0.35896670479999998" green="0.8210945691" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="SIGN UP VIA FACEBOOK">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHR-hw-GQU">
+                                <rect key="frame" x="0.0" y="526" width="600" height="74"/>
+                                <color key="backgroundColor" red="0.35896670479999998" green="0.8210945691" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="56s-tK-gVA"/>
+                                </constraints>
+                                <state key="normal" title="GO">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CEy-f5-mcw" kind="show" id="ELi-A3-96b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="f7d-2F-QJN" secondAttribute="centerX" id="2dS-IT-6vi"/>
+                            <constraint firstAttribute="centerX" secondItem="Lpo-7x-vDl" secondAttribute="centerX" id="AJU-mp-Re5"/>
+                            <constraint firstAttribute="centerX" secondItem="WSp-Bs-OBw" secondAttribute="centerX" id="AqY-tY-wXY"/>
+                            <constraint firstAttribute="centerX" secondItem="ZxC-l7-nOg" secondAttribute="centerX" id="Gg1-ef-ayU"/>
+                            <constraint firstAttribute="centerX" secondItem="lHR-hw-GQU" secondAttribute="centerX" id="NGk-De-N04"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lHR-hw-GQU" secondAttribute="trailing" id="YOX-28-FbF"/>
+                            <constraint firstAttribute="centerX" secondItem="pWi-uI-q3Q" secondAttribute="centerX" id="fSC-Sb-9UK"/>
+                            <constraint firstItem="lHR-hw-GQU" firstAttribute="leading" secondItem="nsx-dF-Zdh" secondAttribute="leadingMargin" id="gYo-cP-xV5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lHR-hw-GQU" secondAttribute="trailing" constant="-16" id="jJV-Xu-2vY"/>
+                            <constraint firstItem="lHR-hw-GQU" firstAttribute="leading" secondItem="nsx-dF-Zdh" secondAttribute="leadingMargin" constant="-16" id="nXm-J8-llc"/>
+                            <constraint firstAttribute="centerX" secondItem="8Qz-vN-zLa" secondAttribute="centerX" id="rYG-PY-hLi"/>
+                            <constraint firstItem="9sC-Xt-V5a" firstAttribute="top" secondItem="lHR-hw-GQU" secondAttribute="bottom" id="ulC-eV-QEc"/>
+                            <constraint firstAttribute="centerX" secondItem="1RI-Ce-c9l" secondAttribute="centerX" id="wEC-Sb-e0T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="facebookBtn" destination="Lpo-7x-vDl" id="pOa-EX-UxX"/>
+                        <outlet property="image" destination="ZxC-l7-nOg" id="iBi-Jp-Inc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMu-Tm-iyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-270" y="62"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="spF-of-ncc">
+            <objects>
+                <viewController id="glY-Qp-dLy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EXz-JV-hXb"/>
+                        <viewControllerLayoutGuide type="bottom" id="89r-hd-u2k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o8s-3Z-sdY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cKH-aP-UsV">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="zTn-I7-9FC"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xtg-QP-4nn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1202" y="334"/>
+        </scene>
+        <!--Sign In View Controller-->
+        <scene sceneID="y69-70-Om4">
+            <objects>
+                <viewController id="agu-xh-FEl" customClass="SignInViewController" customModule="AngelAuto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YGw-dR-Adv"/>
+                        <viewControllerLayoutGuide type="bottom" id="qhB-ve-b50"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2sI-ob-BI4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2as-E2-g5k">
+                                <rect key="frame" x="203" y="82" width="195" height="117"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Sh-9L-QLd">
+                                <rect key="frame" x="197" y="422" width="207" height="42"/>
+                                <color key="backgroundColor" red="0.35896670479999998" green="0.8210945691" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="SIGN UP VIA FACEBOOK">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="EMAIL" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M6p-GU-phj">
+                                <rect key="frame" x="160" y="262" width="281" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wbp-Ay-92g">
+                                <rect key="frame" x="160" y="335" width="281" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9k-ab-fDi">
+                                <rect key="frame" x="0.0" y="526" width="600" height="74"/>
+                                <color key="backgroundColor" red="0.35896670479999998" green="0.8210945691" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="oRV-yx-iL7"/>
+                                </constraints>
+                                <state key="normal" title="GO">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CEy-f5-mcw" kind="show" id="Sm4-yZ-YK4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Wbp-Ay-92g" secondAttribute="centerX" id="48o-eh-Gun"/>
+                            <constraint firstItem="qhB-ve-b50" firstAttribute="top" secondItem="Z9k-ab-fDi" secondAttribute="bottom" id="RZ8-2w-xpo"/>
+                            <constraint firstItem="Z9k-ab-fDi" firstAttribute="leading" secondItem="2sI-ob-BI4" secondAttribute="leadingMargin" constant="-16" id="Vk4-S3-Tlg"/>
+                            <constraint firstAttribute="centerX" secondItem="2as-E2-g5k" secondAttribute="centerX" id="WN6-1c-vEd"/>
+                            <constraint firstAttribute="centerX" secondItem="Z9k-ab-fDi" secondAttribute="centerX" id="dEc-A6-5HI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z9k-ab-fDi" secondAttribute="trailing" constant="-16" id="jDw-9H-d83"/>
+                            <constraint firstAttribute="centerX" secondItem="6Sh-9L-QLd" secondAttribute="centerX" id="mEe-7c-WIb"/>
+                            <constraint firstAttribute="centerX" secondItem="M6p-GU-phj" secondAttribute="centerX" id="x8H-1P-1IK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="facebookBtn" destination="6Sh-9L-QLd" id="eIt-iV-Gco"/>
+                        <outlet property="image" destination="2as-E2-g5k" id="kf3-pQ-wlB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwq-EJ-pOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-270" y="850"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Hrd-UB-7xJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CEy-f5-mcw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5FX-le-njx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="glY-Qp-dLy" kind="relationship" relationship="rootViewController" id="Hqc-gf-lCp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tE9-Gz-vge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="449" y="334"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Sm4-yZ-YK4"/>
+    </inferredMetricsTieBreakers>
+</document>

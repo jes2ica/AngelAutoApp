@@ -10,25 +10,10 @@ import UIKit
 
 class MapViewController: UIViewController {
     
-    var centerNavigationController: UINavigationController!
-    var centerViewController: CenterViewController!
-
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         
         super.viewDidLoad()
-        
-        centerViewController = UIStoryboard.centerViewController()
-        centerViewController.delegate = self
-        
-        // wrap the centerViewController in a navigation controller, so we can push views to it
-        // and display bar button items in the navigation bar
-        centerNavigationController = UINavigationController(rootViewController: centerViewController)
-        view.addSubview(centerNavigationController.view)
-        addChildViewController(centerNavigationController)
-        
-        centerNavigationController.didMoveToParentViewController(self)
-        
-       
+            
 
         // Do any additional setup after loading the view.
     }

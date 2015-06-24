@@ -10,6 +10,7 @@
 		4B096BDA1B3A6C0B00BC3F5D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BD91B3A6C0B00BC3F5D /* SignInViewController.swift */; };
 		4B096BDC1B3A74ED00BC3F5D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */; };
 		4B096BDE1B3A857A00BC3F5D /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BDD1B3A857A00BC3F5D /* CenterViewController.swift */; };
+		4B096BE91B3A8ED200BC3F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B096BE81B3A8ED200BC3F5D /* Main.storyboard */; };
 		4B3BD3811B33B9E2002C4204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */; };
 		4B3BD3831B33B9E2002C4204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3821B33B9E2002C4204 /* ViewController.swift */; };
 		4B3BD3881B33B9E2002C4204 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3BD3871B33B9E2002C4204 /* Images.xcassets */; };
@@ -32,6 +33,7 @@
 		4B096BD91B3A6C0B00BC3F5D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4B096BDD1B3A857A00BC3F5D /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		4B096BE81B3A8ED200BC3F5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4B3BD37B1B33B9E2002C4204 /* AngelAuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelAuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3BD37F1B33B9E2002C4204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				4B096BD91B3A6C0B00BC3F5D /* SignInViewController.swift */,
 				4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */,
 				4B3BD3821B33B9E2002C4204 /* ViewController.swift */,
+				4B096BE81B3A8ED200BC3F5D /* Main.storyboard */,
 				4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */,
 				4B096BDD1B3A857A00BC3F5D /* CenterViewController.swift */,
 				4B3BD3871B33B9E2002C4204 /* Images.xcassets */,
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B096BE91B3A8ED200BC3F5D /* Main.storyboard in Resources */,
 				4B3BD38B1B33B9E2002C4204 /* LaunchScreen.xib in Resources */,
 				4B3BD3881B33B9E2002C4204 /* Images.xcassets in Resources */,
 			);
