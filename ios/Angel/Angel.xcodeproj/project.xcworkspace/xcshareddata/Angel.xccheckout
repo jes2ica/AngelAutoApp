@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>20D67DE1-C58E-41D9-A117-F4B26144DAB8</string>
+	<string>8356AB9C-C485-46F8-86B7-2B09C77AFAFC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>AngelAuto</string>
+	<string>Angel</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>00233FE051DD4E1D66FF1ACD8C5B8E3425DF81CD</key>
 		<string>https://github.com/jes2ica/AngelAutoApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ios/AngelAuto/AngelAuto.xcodeproj</string>
+	<string>ios/Angel/Angel.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>00233FE051DD4E1D66FF1ACD8C5B8E3425DF81CD</key>
