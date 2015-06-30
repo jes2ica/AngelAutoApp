@@ -8,6 +8,7 @@
 
 import UIKit
 import QuartzCore
+import GoogleMaps
 
 enum SlideOutState {
     case Collapsed
@@ -24,6 +25,7 @@ class MapViewController: UIViewController {
     
     let centerPanelExpandedOffset: CGFloat = 60
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,7 +38,6 @@ class MapViewController: UIViewController {
         view.addSubview(centerNavigationController.view)
         addChildViewController(centerNavigationController)
         
-        centerNavigationController.didMoveToParentViewController(self)
     }
     
 }
@@ -110,6 +111,10 @@ private extension UIStoryboard {
     
     class func leftViewController() -> SidePanelViewController? {
         return mainStoryboard().instantiateViewControllerWithIdentifier("LeftViewController") as? SidePanelViewController
+    }
+    
+    class func bottomViewController() -> BottomPanelViewController? {
+        return mainStoryboard().instantiateViewControllerWithIdentifier("BottomViewController") as? BottomPanelViewController
     }
     
     class func centerViewController() -> CenterViewController? {
