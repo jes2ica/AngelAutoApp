@@ -27,13 +27,12 @@ class MapViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         centerViewController = UIStoryboard.centerViewController()
         centerViewController.delegate = self
         
-        // wrap the centerViewController in a navigation controller, so we can push views to it
-        // and display bar button items in the navigation bar
         centerNavigationController = UINavigationController(rootViewController: centerViewController)
         view.addSubview(centerNavigationController.view)
         addChildViewController(centerNavigationController)
@@ -111,10 +110,6 @@ private extension UIStoryboard {
     
     class func leftViewController() -> SidePanelViewController? {
         return mainStoryboard().instantiateViewControllerWithIdentifier("LeftViewController") as? SidePanelViewController
-    }
-    
-    class func bottomViewController() -> BottomPanelViewController? {
-        return mainStoryboard().instantiateViewControllerWithIdentifier("BottomViewController") as? BottomPanelViewController
     }
     
     class func centerViewController() -> CenterViewController? {

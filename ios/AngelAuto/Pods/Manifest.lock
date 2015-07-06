@@ -1,10 +1,13 @@
 PODS:
+  - FontAwesome.swift (0.4.1)
   - GoogleMaps (1.10.1)
 
 DEPENDENCIES:
+  - FontAwesome.swift
   - GoogleMaps
 
 SPEC CHECKSUMS:
+  FontAwesome.swift: a0e1b189c0155eb4dd688ff689dea1ca9aa869fe
   GoogleMaps: ebf08677f181d9c2dcdbd1721d206f02beccc9b1
 
 COCOAPODS: 0.37.2
