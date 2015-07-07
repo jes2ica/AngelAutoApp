@@ -15,7 +15,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.navigationItem.hidesBackButton = true
+        self.navigationController?.navigationBarHidden = true
         
         self.view.backgroundColor = UIColor(patternImage: UIImage(named:"bg2.png")!)
         

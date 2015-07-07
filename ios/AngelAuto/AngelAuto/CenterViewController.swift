@@ -42,6 +42,11 @@ class CenterViewController: UIViewController, CLLocationManagerDelegate {
         
         super.viewDidLoad()
         
+        self.view.userInteractionEnabled = true
+        let tapGesture = UITapGestureRecognizer(target: self, action:Selector("viewTapped:"))
+        tapGesture.cancelsTouchesInView = false
+        self.view.addGestureRecognizer(tapGesture)
+        
         var camera = GMSCameraPosition.cameraWithLatitude(37.39, longitude: -122.06, zoom: 9)
         mapView = GMSMapView.mapWithFrame(CGRectMake(0, 60, 375 ,460), camera: camera)
 //
@@ -84,20 +89,15 @@ class CenterViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         mapView.addObserver(self, forKeyPath: "myLocation", options: NSKeyValueObservingOptions.New, context: nil)
         view.addSubview(mapView)
-
+        
+        
         
     }
     
     func locationManager(manager: CLLocationManager!, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
-        
-        
         if status == CLAuthorizationStatus.AuthorizedWhenInUse {
-            
             mapView.myLocationEnabled = true
-            
         }
-        
-        
     }
     
     override func observeValueForKeyPath(keyPath: String, ofObject object: AnyObject, change: [NSObject : AnyObject], context: UnsafeMutablePointer<Void>) {
@@ -112,5 +112,11 @@ class CenterViewController: UIViewController, CLLocationManagerDelegate {
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
     }
+    
+    func viewTapped(tap: UITapGestureRecognizer) {
+        self.searchBar.resignFirstResponder()
+    }
+    
+    
     
 }

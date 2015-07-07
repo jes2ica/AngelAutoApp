@@ -11,12 +11,12 @@
 		4B096BDC1B3A74ED00BC3F5D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */; };
 		4B096BDE1B3A857A00BC3F5D /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BDD1B3A857A00BC3F5D /* CenterViewController.swift */; };
 		4B096BEB1B3A956700BC3F5D /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BEA1B3A956700BC3F5D /* SidePanelViewController.swift */; };
-		4B096BF31B3D374F00BC3F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B096BF21B3D374F00BC3F5D /* Main.storyboard */; };
 		4B3BD3811B33B9E2002C4204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */; };
 		4B3BD3831B33B9E2002C4204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3821B33B9E2002C4204 /* ViewController.swift */; };
 		4B3BD3881B33B9E2002C4204 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3BD3871B33B9E2002C4204 /* Images.xcassets */; };
 		4B3BD38B1B33B9E2002C4204 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3BD3891B33B9E2002C4204 /* LaunchScreen.xib */; };
 		4B3BD3971B33B9E2002C4204 /* AngelAutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3961B33B9E2002C4204 /* AngelAutoTests.swift */; };
+		4B3C72411B4BBA500047CB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C72401B4BBA500047CB85 /* Main.storyboard */; };
 		4B412C5A1B33CAEA0088F36E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B412C591B33CAEA0088F36E /* SignUpViewController.swift */; };
 		A858B02BDE3EB190CF96F37D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F08AB2C5BDA09DFF6CFB77 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -38,7 +38,6 @@
 		4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4B096BDD1B3A857A00BC3F5D /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
 		4B096BEA1B3A956700BC3F5D /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
-		4B096BF21B3D374F00BC3F5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4B3BD37B1B33B9E2002C4204 /* AngelAuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelAuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3BD37F1B33B9E2002C4204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		4B3BD3901B33B9E2002C4204 /* AngelAutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelAutoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3BD3951B33B9E2002C4204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3BD3961B33B9E2002C4204 /* AngelAutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelAutoTests.swift; sourceTree = "<group>"; };
+		4B3C72401B4BBA500047CB85 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4B412C591B33CAEA0088F36E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		782AD019DBC4F6E26A66CD97 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +94,8 @@
 		4B3BD37D1B33B9E2002C4204 /* AngelAuto */ = {
 			isa = PBXGroup;
 			children = (
-				4B096BF21B3D374F00BC3F5D /* Main.storyboard */,
 				4B096BD91B3A6C0B00BC3F5D /* SignInViewController.swift */,
+				4B3C72401B4BBA500047CB85 /* Main.storyboard */,
 				4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */,
 				4B3BD3821B33B9E2002C4204 /* ViewController.swift */,
 				4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */,
@@ -234,7 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B096BF31B3D374F00BC3F5D /* Main.storyboard in Resources */,
+				4B3C72411B4BBA500047CB85 /* Main.storyboard in Resources */,
 				4B3BD38B1B33B9E2002C4204 /* LaunchScreen.xib in Resources */,
 				4B3BD3881B33B9E2002C4204 /* Images.xcassets in Resources */,
 			);
