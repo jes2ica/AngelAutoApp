@@ -1,0 +1,6 @@
+framework module YRADScrollView {
+  umbrella header "Pods-YRADScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,11 +7,27 @@
 //
 
 import UIKit
+import Parse
+import ParseUI
 
 class SignUpViewController: UIViewController {
+    
+    @IBOutlet var activityIndicator: UIActivityIndicatorView!
 
     @IBOutlet var image: UIImageView!
-    @IBOutlet var facebookBtn: UIButton!    
+    
+    @IBOutlet var nameText: UITextField!
+    
+    @IBOutlet var usernameText: UITextField!
+    @IBOutlet var emailText: UITextField!
+    @IBOutlet var phoneText: UITextField!
+    @IBOutlet var passwordText: UITextField!
+    @IBOutlet var confirmText: UITextField!
+    
+    @IBOutlet var facebookBtn: UIButton!
+    
+    @IBOutlet var message: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,9 +42,59 @@ class SignUpViewController: UIViewController {
         
         image.image = UIImage(named:"logo.png")
         facebookBtn.layer.cornerRadius = 20
-
-        // Do any additional setup after loading the view.
+        
+        
+        activityIndicator.hidden = true
+        activityIndicator.hidesWhenStopped = true
     }
+    
+    
+    
+    @IBAction func signUp(sender: AnyObject) {
+        
+        var username = nameText.text
+        var email = emailText.text
+        var password = passwordText.text
+        
+        // Ensure username is lowercase
+        email = email.lowercaseString
+        
+        // Add email address validation
+        
+        // Start activity indicator
+        activityIndicator.hidden = false
+        activityIndicator.startAnimating()
+        
+        // Create the user
+        var user = PFUser()
+        user.username = username
+        user.password = password
+        user.email = email
+        
+        user.signUpInBackgroundWithBlock {
+            (succeeded: Bool, error: NSError?) -> Void in
+            
+            if error == nil {
+                
+                dispatch_async(dispatch_get_main_queue()) {
+                    
+                    let mapViewController = MapViewController()
+                    self.presentViewController(mapViewController, animated: true, completion: nil)
+                }
+                
+            } else {
+                
+                self.activityIndicator.stopAnimating()
+                
+                if let message: AnyObject = error!.userInfo!["error"] {
+                    self.message.text = "\(message)" + "!"
+                }
+            }
+        }
+        
+    }
+   
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -37,8 +103,7 @@ class SignUpViewController: UIViewController {
     
     
     @IBAction func goBtnPressed(sender: AnyObject) {
-        let mapViewController = MapViewController()
-        self.presentViewController(mapViewController, animated: true, completion: nil)
+        
     }
     
     func viewTapped(tap: UITapGestureRecognizer) {

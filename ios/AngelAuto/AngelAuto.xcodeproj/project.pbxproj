@@ -11,14 +11,53 @@
 		4B096BDC1B3A74ED00BC3F5D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */; };
 		4B096BDE1B3A857A00BC3F5D /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BDD1B3A857A00BC3F5D /* CenterViewController.swift */; };
 		4B096BEB1B3A956700BC3F5D /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B096BEA1B3A956700BC3F5D /* SidePanelViewController.swift */; };
+		4B2B63781B76A0C600BA86B3 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B63771B76A0C600BA86B3 /* CardTableViewCell.xib */; };
+		4B2B637A1B76A1EA00BA86B3 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B63791B76A1EA00BA86B3 /* recipes.plist */; };
 		4B3BD3811B33B9E2002C4204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */; };
 		4B3BD3831B33B9E2002C4204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3821B33B9E2002C4204 /* ViewController.swift */; };
 		4B3BD3881B33B9E2002C4204 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3BD3871B33B9E2002C4204 /* Images.xcassets */; };
 		4B3BD38B1B33B9E2002C4204 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3BD3891B33B9E2002C4204 /* LaunchScreen.xib */; };
 		4B3BD3971B33B9E2002C4204 /* AngelAutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3961B33B9E2002C4204 /* AngelAutoTests.swift */; };
 		4B3C72411B4BBA500047CB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C72401B4BBA500047CB85 /* Main.storyboard */; };
+		4B3C72431B4E49490047CB85 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C72421B4E49490047CB85 /* SuccessViewController.swift */; };
+		4B3C72451B53AD390047CB85 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C72441B53AD390047CB85 /* PaymentViewController.swift */; };
+		4B3C72471B53B4870047CB85 /* PayPalMobile in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C72461B53B4870047CB85 /* PayPalMobile */; };
 		4B412C5A1B33CAEA0088F36E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B412C591B33CAEA0088F36E /* SignUpViewController.swift */; };
-		A858B02BDE3EB190CF96F37D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F08AB2C5BDA09DFF6CFB77 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4B59FBA71B75E3DD00F93145 /* GetFreeServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59FBA61B75E3DD00F93145 /* GetFreeServiceViewController.swift */; };
+		4B59FBA91B765AE400F93145 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59FBA81B765AE400F93145 /* CardTableViewCell.swift */; };
+		4BEB850D1B67449200E80509 /* AngelAuto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB850B1B67449200E80509 /* AngelAuto.xcdatamodeld */; };
+		4BEB850F1B674C2A00E80509 /* AngelAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB850E1B674C2A00E80509 /* AngelAuto.m */; };
+		4BEB85131B674D8600E80509 /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB85121B674D8600E80509 /* CarsTableViewController.swift */; };
+		4BEB85171B69E96500E80509 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85141B69E96500E80509 /* Bolts.framework */; };
+		4BEB85181B69E96500E80509 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85151B69E96500E80509 /* Parse.framework */; };
+		4BEB85191B69E96500E80509 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85161B69E96500E80509 /* ParseUI.framework */; };
+		4BEB851B1B69E98800E80509 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB851A1B69E98800E80509 /* AudioToolbox.framework */; };
+		4BEB851D1B69E98E00E80509 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB851C1B69E98E00E80509 /* CFNetwork.framework */; };
+		4BEB851F1B69E99500E80509 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB851E1B69E99500E80509 /* CoreGraphics.framework */; };
+		4BEB85211B69E99B00E80509 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85201B69E99B00E80509 /* CoreLocation.framework */; };
+		4BEB85231B69E9A100E80509 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85221B69E9A100E80509 /* MobileCoreServices.framework */; };
+		4BEB85251B69E9A800E80509 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85241B69E9A800E80509 /* QuartzCore.framework */; };
+		4BEB85271B69E9AD00E80509 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85261B69E9AD00E80509 /* Security.framework */; };
+		4BEB85291B69E9B400E80509 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85281B69E9B400E80509 /* StoreKit.framework */; };
+		4BEB852B1B69E9BD00E80509 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB852A1B69E9BD00E80509 /* SystemConfiguration.framework */; };
+		4BEB852D1B69E9D100E80509 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB852C1B69E9D100E80509 /* libz.dylib */; };
+		4BEB852F1B69E9DB00E80509 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB852E1B69E9DB00E80509 /* libsqlite3.dylib */; };
+		4BEB85311B69EA1D00E80509 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85301B69EA1D00E80509 /* Accounts.framework */; };
+		4BEB85331B69EA2700E80509 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BEB85321B69EA2700E80509 /* Social.framework */; };
+		4BFB9D0C1B6F14AF005F1A5C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB9D0B1B6F14AF005F1A5C /* SettingsViewController.swift */; };
+		4BFB9D1B1B703261005F1A5C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB9D1A1B703261005F1A5C /* AboutUsViewController.swift */; };
+		4BFB9D1D1B703A9A005F1A5C /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB9D1C1B703A9A005F1A5C /* HistoryTableViewController.swift */; };
+		4BFB9D291B7447D6005F1A5C /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB9D241B7447D6005F1A5C /* Coordinate.m */; };
+		4BFB9D2A1B7447D6005F1A5C /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB9D261B7447D6005F1A5C /* UIView+Screenshot.m */; };
+		4BFB9D2B1B7447D6005F1A5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB9D281B7447D6005F1A5C /* ViewController.m */; };
+		4BFB9D2D1B74487A005F1A5C /* FancyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB9D2C1B74487A005F1A5C /* FancyTabBar.m */; };
+		4BFB9D361B744A06005F1A5C /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB9D351B744A06005F1A5C /* UIImage+ImageEffects.m */; };
+		4BFB9D3A1B7451BA005F1A5C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFB9D371B7451BA005F1A5C /* FBSDKCoreKit.framework */; };
+		4BFB9D3B1B7451BA005F1A5C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFB9D381B7451BA005F1A5C /* FBSDKLoginKit.framework */; };
+		4BFB9D3C1B7451BA005F1A5C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFB9D391B7451BA005F1A5C /* FBSDKShareKit.framework */; };
+		4BFB9D3E1B74621B005F1A5C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFB9D3D1B74621B005F1A5C /* Bolts.framework */; };
+		4BFB9D4A1B749289005F1A5C /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFB9D491B749289005F1A5C /* ParseFacebookUtilsV4.framework */; };
+		C01775824F3ED208DD18FCAC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A794276942295BF9346D5D /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +72,12 @@
 
 /* Begin PBXFileReference section */
 		0065574CE113B8246889F9D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		03F08AB2C5BDA09DFF6CFB77 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B096BD91B3A6C0B00BC3F5D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4B096BDD1B3A857A00BC3F5D /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
 		4B096BEA1B3A956700BC3F5D /* SidePanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
+		4B2B63771B76A0C600BA86B3 /* CardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		4B2B63791B76A1EA00BA86B3 /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 		4B3BD37B1B33B9E2002C4204 /* AngelAuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelAuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3BD37F1B33B9E2002C4204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,8 +88,53 @@
 		4B3BD3951B33B9E2002C4204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3BD3961B33B9E2002C4204 /* AngelAutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelAutoTests.swift; sourceTree = "<group>"; };
 		4B3C72401B4BBA500047CB85 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B3C72421B4E49490047CB85 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		4B3C72441B53AD390047CB85 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		4B3C72461B53B4870047CB85 /* PayPalMobile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PayPalMobile; path = AngelAuto/PayPalMobile; sourceTree = "<group>"; };
 		4B412C591B33CAEA0088F36E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4B59FBA61B75E3DD00F93145 /* GetFreeServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFreeServiceViewController.swift; sourceTree = "<group>"; };
+		4B59FBA81B765AE400F93145 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		4BEB85041B6580C100E80509 /* AngelAuto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AngelAuto-Bridging-Header.h"; sourceTree = "<group>"; };
+		4BEB850C1B67449200E80509 /* AngelAuto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AngelAuto.xcdatamodel; sourceTree = "<group>"; };
+		4BEB850E1B674C2A00E80509 /* AngelAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngelAuto.m; sourceTree = "<group>"; };
+		4BEB85121B674D8600E80509 /* CarsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsTableViewController.swift; sourceTree = "<group>"; };
+		4BEB85141B69E96500E80509 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../../Downloads/parse-library-1.7.5/Bolts.framework"; sourceTree = "<group>"; };
+		4BEB85151B69E96500E80509 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../../Downloads/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
+		4BEB85161B69E96500E80509 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../../../Downloads/parse-library-1.7.5/ParseUI.framework"; sourceTree = "<group>"; };
+		4BEB851A1B69E98800E80509 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4BEB851C1B69E98E00E80509 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4BEB851E1B69E99500E80509 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BEB85201B69E99B00E80509 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4BEB85221B69E9A100E80509 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4BEB85241B69E9A800E80509 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4BEB85261B69E9AD00E80509 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4BEB85281B69E9B400E80509 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4BEB852A1B69E9BD00E80509 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4BEB852C1B69E9D100E80509 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4BEB852E1B69E9DB00E80509 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4BEB85301B69EA1D00E80509 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4BEB85321B69EA2700E80509 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4BFB9D0B1B6F14AF005F1A5C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4BFB9D1A1B703261005F1A5C /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		4BFB9D1C1B703A9A005F1A5C /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		4BFB9D231B7447D6005F1A5C /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coordinate.h; path = FancyBar/Coordinate.h; sourceTree = "<group>"; };
+		4BFB9D241B7447D6005F1A5C /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Coordinate.m; path = FancyBar/Coordinate.m; sourceTree = "<group>"; };
+		4BFB9D251B7447D6005F1A5C /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Screenshot.h"; path = "FancyBar/UIView+Screenshot.h"; sourceTree = "<group>"; };
+		4BFB9D261B7447D6005F1A5C /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Screenshot.m"; path = "FancyBar/UIView+Screenshot.m"; sourceTree = "<group>"; };
+		4BFB9D271B7447D6005F1A5C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = FancyBar/ViewController.h; sourceTree = "<group>"; };
+		4BFB9D281B7447D6005F1A5C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = FancyBar/ViewController.m; sourceTree = "<group>"; };
+		4BFB9D2C1B74487A005F1A5C /* FancyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyTabBar.m; sourceTree = "<group>"; };
+		4BFB9D2E1B74488C005F1A5C /* FancyTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FancyTabBar.h; sourceTree = "<group>"; };
+		4BFB9D331B7449DC005F1A5C /* FancyTabBarDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FancyTabBarDelegate.h; sourceTree = "<group>"; };
+		4BFB9D341B744A06005F1A5C /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		4BFB9D351B744A06005F1A5C /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		4BFB9D371B7451BA005F1A5C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4BFB9D381B7451BA005F1A5C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4BFB9D391B7451BA005F1A5C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		4BFB9D3D1B74621B005F1A5C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4BFB9D491B749289005F1A5C /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		782AD019DBC4F6E26A66CD97 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		96A794276942295BF9346D5D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +142,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A858B02BDE3EB190CF96F37D /* Pods.framework in Frameworks */,
+				4BEB85331B69EA2700E80509 /* Social.framework in Frameworks */,
+				4BEB85311B69EA1D00E80509 /* Accounts.framework in Frameworks */,
+				4BEB852F1B69E9DB00E80509 /* libsqlite3.dylib in Frameworks */,
+				4BEB852D1B69E9D100E80509 /* libz.dylib in Frameworks */,
+				4BEB852B1B69E9BD00E80509 /* SystemConfiguration.framework in Frameworks */,
+				4BEB85291B69E9B400E80509 /* StoreKit.framework in Frameworks */,
+				4BFB9D3E1B74621B005F1A5C /* Bolts.framework in Frameworks */,
+				4BEB85271B69E9AD00E80509 /* Security.framework in Frameworks */,
+				4BFB9D3A1B7451BA005F1A5C /* FBSDKCoreKit.framework in Frameworks */,
+				4BEB85251B69E9A800E80509 /* QuartzCore.framework in Frameworks */,
+				4BFB9D4A1B749289005F1A5C /* ParseFacebookUtilsV4.framework in Frameworks */,
+				4BEB85231B69E9A100E80509 /* MobileCoreServices.framework in Frameworks */,
+				4BEB85211B69E99B00E80509 /* CoreLocation.framework in Frameworks */,
+				4BEB851F1B69E99500E80509 /* CoreGraphics.framework in Frameworks */,
+				4BFB9D3C1B7451BA005F1A5C /* FBSDKShareKit.framework in Frameworks */,
+				4BEB851D1B69E98E00E80509 /* CFNetwork.framework in Frameworks */,
+				4BFB9D3B1B7451BA005F1A5C /* FBSDKLoginKit.framework in Frameworks */,
+				4BEB851B1B69E98800E80509 /* AudioToolbox.framework in Frameworks */,
+				4BEB85171B69E96500E80509 /* Bolts.framework in Frameworks */,
+				4BEB85181B69E96500E80509 /* Parse.framework in Frameworks */,
+				4BEB85191B69E96500E80509 /* ParseUI.framework in Frameworks */,
+				C01775824F3ED208DD18FCAC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +180,8 @@
 		4B3BD3721B33B9E2002C4204 = {
 			isa = PBXGroup;
 			children = (
+				4BFB9D221B7447B8005F1A5C /* FancyBar */,
+				4B3C72461B53B4870047CB85 /* PayPalMobile */,
 				4B3BD37D1B33B9E2002C4204 /* AngelAuto */,
 				4B3BD3931B33B9E2002C4204 /* AngelAutoTests */,
 				4B3BD37C1B33B9E2002C4204 /* Products */,
@@ -94,9 +202,12 @@
 		4B3BD37D1B33B9E2002C4204 /* AngelAuto */ = {
 			isa = PBXGroup;
 			children = (
+				4B2B63791B76A1EA00BA86B3 /* recipes.plist */,
+				4B2B63771B76A0C600BA86B3 /* CardTableViewCell.xib */,
 				4B096BD91B3A6C0B00BC3F5D /* SignInViewController.swift */,
 				4B3C72401B4BBA500047CB85 /* Main.storyboard */,
 				4B3BD3801B33B9E2002C4204 /* AppDelegate.swift */,
+				4BEB850B1B67449200E80509 /* AngelAuto.xcdatamodeld */,
 				4B3BD3821B33B9E2002C4204 /* ViewController.swift */,
 				4B096BDB1B3A74ED00BC3F5D /* MapViewController.swift */,
 				4B096BDD1B3A857A00BC3F5D /* CenterViewController.swift */,
@@ -105,6 +216,16 @@
 				4B3BD37E1B33B9E2002C4204 /* Supporting Files */,
 				4B412C591B33CAEA0088F36E /* SignUpViewController.swift */,
 				4B096BEA1B3A956700BC3F5D /* SidePanelViewController.swift */,
+				4B3C72421B4E49490047CB85 /* SuccessViewController.swift */,
+				4B3C72441B53AD390047CB85 /* PaymentViewController.swift */,
+				4BEB85041B6580C100E80509 /* AngelAuto-Bridging-Header.h */,
+				4BEB850E1B674C2A00E80509 /* AngelAuto.m */,
+				4BEB85121B674D8600E80509 /* CarsTableViewController.swift */,
+				4BFB9D0B1B6F14AF005F1A5C /* SettingsViewController.swift */,
+				4BFB9D1A1B703261005F1A5C /* AboutUsViewController.swift */,
+				4BFB9D1C1B703A9A005F1A5C /* HistoryTableViewController.swift */,
+				4B59FBA61B75E3DD00F93145 /* GetFreeServiceViewController.swift */,
+				4B59FBA81B765AE400F93145 /* CardTableViewCell.swift */,
 			);
 			path = AngelAuto;
 			sourceTree = "<group>";
@@ -134,6 +255,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4BFB9D221B7447B8005F1A5C /* FancyBar */ = {
+			isa = PBXGroup;
+			children = (
+				4BFB9D331B7449DC005F1A5C /* FancyTabBarDelegate.h */,
+				4BFB9D2C1B74487A005F1A5C /* FancyTabBar.m */,
+				4BFB9D2E1B74488C005F1A5C /* FancyTabBar.h */,
+				4BFB9D231B7447D6005F1A5C /* Coordinate.h */,
+				4BFB9D241B7447D6005F1A5C /* Coordinate.m */,
+				4BFB9D341B744A06005F1A5C /* UIImage+ImageEffects.h */,
+				4BFB9D351B744A06005F1A5C /* UIImage+ImageEffects.m */,
+				4BFB9D251B7447D6005F1A5C /* UIView+Screenshot.h */,
+				4BFB9D261B7447D6005F1A5C /* UIView+Screenshot.m */,
+				4BFB9D271B7447D6005F1A5C /* ViewController.h */,
+				4BFB9D281B7447D6005F1A5C /* ViewController.m */,
+			);
+			name = FancyBar;
+			sourceTree = "<group>";
+		};
 		9891096873EC8EBEF7E19D69 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +285,28 @@
 		CB2FEC08A9301E7F09F06F81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03F08AB2C5BDA09DFF6CFB77 /* Pods.framework */,
+				4BFB9D491B749289005F1A5C /* ParseFacebookUtilsV4.framework */,
+				4BFB9D3D1B74621B005F1A5C /* Bolts.framework */,
+				4BFB9D371B7451BA005F1A5C /* FBSDKCoreKit.framework */,
+				4BFB9D381B7451BA005F1A5C /* FBSDKLoginKit.framework */,
+				4BFB9D391B7451BA005F1A5C /* FBSDKShareKit.framework */,
+				4BEB85321B69EA2700E80509 /* Social.framework */,
+				4BEB85301B69EA1D00E80509 /* Accounts.framework */,
+				4BEB852E1B69E9DB00E80509 /* libsqlite3.dylib */,
+				4BEB852C1B69E9D100E80509 /* libz.dylib */,
+				4BEB852A1B69E9BD00E80509 /* SystemConfiguration.framework */,
+				4BEB85281B69E9B400E80509 /* StoreKit.framework */,
+				4BEB85261B69E9AD00E80509 /* Security.framework */,
+				4BEB85241B69E9A800E80509 /* QuartzCore.framework */,
+				4BEB85221B69E9A100E80509 /* MobileCoreServices.framework */,
+				4BEB85201B69E99B00E80509 /* CoreLocation.framework */,
+				4BEB851E1B69E99500E80509 /* CoreGraphics.framework */,
+				4BEB851C1B69E98E00E80509 /* CFNetwork.framework */,
+				4BEB851A1B69E98800E80509 /* AudioToolbox.framework */,
+				4BEB85141B69E96500E80509 /* Bolts.framework */,
+				4BEB85151B69E96500E80509 /* Parse.framework */,
+				4BEB85161B69E96500E80509 /* ParseUI.framework */,
+				96A794276942295BF9346D5D /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,7 +323,7 @@
 				4B3BD3781B33B9E2002C4204 /* Frameworks */,
 				4B3BD3791B33B9E2002C4204 /* Resources */,
 				79B5D8BF8EDDA618EFEE6293 /* Copy Pods Resources */,
-				41ADEEA88D0387488008A0E4 /* Embed Pods Frameworks */,
+				B3BE7E9362E50BE47E936270 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +363,7 @@
 				TargetAttributes = {
 					4B3BD37A1B33B9E2002C4204 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = HHGD6FRFWT;
 					};
 					4B3BD38F1B33B9E2002C4204 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -236,7 +397,10 @@
 			files = (
 				4B3C72411B4BBA500047CB85 /* Main.storyboard in Resources */,
 				4B3BD38B1B33B9E2002C4204 /* LaunchScreen.xib in Resources */,
+				4B2B637A1B76A1EA00BA86B3 /* recipes.plist in Resources */,
+				4B2B63781B76A0C600BA86B3 /* CardTableViewCell.xib in Resources */,
 				4B3BD3881B33B9E2002C4204 /* Images.xcassets in Resources */,
+				4B3C72471B53B4870047CB85 /* PayPalMobile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,21 +414,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41ADEEA88D0387488008A0E4 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		79B5D8BF8EDDA618EFEE6293 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +427,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3BE7E9362E50BE47E936270 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DEE54D49059E0F3C4A3BC8CE /* Check Pods Manifest.lock */ = {
@@ -302,12 +466,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BFB9D1D1B703A9A005F1A5C /* HistoryTableViewController.swift in Sources */,
+				4B59FBA91B765AE400F93145 /* CardTableViewCell.swift in Sources */,
+				4BFB9D2A1B7447D6005F1A5C /* UIView+Screenshot.m in Sources */,
+				4B59FBA71B75E3DD00F93145 /* GetFreeServiceViewController.swift in Sources */,
 				4B096BDA1B3A6C0B00BC3F5D /* SignInViewController.swift in Sources */,
 				4B412C5A1B33CAEA0088F36E /* SignUpViewController.swift in Sources */,
+				4BFB9D291B7447D6005F1A5C /* Coordinate.m in Sources */,
 				4B3BD3831B33B9E2002C4204 /* ViewController.swift in Sources */,
 				4B096BDE1B3A857A00BC3F5D /* CenterViewController.swift in Sources */,
+				4BEB85131B674D8600E80509 /* CarsTableViewController.swift in Sources */,
+				4BFB9D2D1B74487A005F1A5C /* FancyTabBar.m in Sources */,
+				4BEB850D1B67449200E80509 /* AngelAuto.xcdatamodeld in Sources */,
+				4BEB850F1B674C2A00E80509 /* AngelAuto.m in Sources */,
 				4B096BEB1B3A956700BC3F5D /* SidePanelViewController.swift in Sources */,
+				4BFB9D1B1B703261005F1A5C /* AboutUsViewController.swift in Sources */,
 				4B096BDC1B3A74ED00BC3F5D /* MapViewController.swift in Sources */,
+				4B3C72431B4E49490047CB85 /* SuccessViewController.swift in Sources */,
+				4BFB9D2B1B7447D6005F1A5C /* ViewController.m in Sources */,
+				4BFB9D361B744A06005F1A5C /* UIImage+ImageEffects.m in Sources */,
+				4BFB9D0C1B6F14AF005F1A5C /* SettingsViewController.swift in Sources */,
+				4B3C72451B53AD390047CB85 /* PaymentViewController.swift in Sources */,
 				4B3BD3811B33B9E2002C4204 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +607,75 @@
 			baseConfigurationReference = 782AD019DBC4F6E26A66CD97 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jes2ica/Downloads/parse-library-1.7.5",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AngelAuto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"PayPalMobile\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FontAwesome_swift\"",
+					"-framework",
+					"\"Font_Awesome_Swift\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"ParseUI\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"YRADScrollView\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AngelAuto/AngelAuto-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -439,9 +684,74 @@
 			baseConfigurationReference = 0065574CE113B8246889F9D6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jes2ica/Downloads/parse-library-1.7.5",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AngelAuto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"PayPalMobile\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FontAwesome_swift\"",
+					"-framework",
+					"\"Font_Awesome_Swift\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"ParseUI\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"YRADScrollView\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AngelAuto/AngelAuto-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -510,6 +820,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BEB850B1B67449200E80509 /* AngelAuto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BEB850C1B67449200E80509 /* AngelAuto.xcdatamodel */,
+			);
+			currentVersion = 4BEB850C1B67449200E80509 /* AngelAuto.xcdatamodel */;
+			path = AngelAuto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4B3BD3731B33B9E2002C4204 /* Project object */;
 }

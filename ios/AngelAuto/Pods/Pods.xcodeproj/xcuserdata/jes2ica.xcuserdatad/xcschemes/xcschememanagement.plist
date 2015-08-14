@@ -4,12 +4,67 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Branch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BranchInvite-BranchInvite.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BranchInvite.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Facebook-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Font-Awesome-Swift-Font-Awesome-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Font-Awesome-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FontAwesome.swift-FontAwesome.swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-FontAwesome.swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HMSegmentedControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ParseUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YRADScrollView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +77,72 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>024A1C40832E76FC41E236A5</key>
+		<key>133ADC1F5039DB08E2610860</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>08D48A153511EDFE8988C79A</key>
+		<key>18F46A69AE25FD219A2B3C95</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA3286F0C062248A472B8EE4</key>
+		<key>2962DAA80A3BB06C5E0C995F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2ABAD2EC2FAE15D12D7A5F8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6787FB30545E9D01C904497F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>768DB20ED39231A991DAB9FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88FE9CF5F07D1A81E2DFBCBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91C52D27F08557BE20B6A8C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B15F3B0B0A0DAF98FE1A1380</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7E4ED1489F0F659EBBC2CE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B852B325F7C5D68761856A8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6DBFBBF62EC143EA55A53D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2FBE2A694646FB2B79196DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB6E86BFCCD039A1FF8A5DE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

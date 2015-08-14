@@ -64,10 +64,10 @@ extension MapViewController: CenterViewControllerDelegate {
     func collapseSidePanels() {
         
         switch (currentState) {
-        case .Expanded:
-            toggleLeftPanel()
-        default:
-            break
+            case .Expanded:
+                toggleLeftPanel()
+            default:
+                break
         }
     }
 
@@ -102,6 +102,25 @@ extension MapViewController: CenterViewControllerDelegate {
             self.centerNavigationController.view.frame.origin.x = targetPosition
             }, completion: completion)
     }
+    
+    @IBAction func unwindToMap(unwindSegue: UIStoryboardSegue) {
+        
+        if let settingsViewController = unwindSegue.sourceViewController as? SettingsViewController {
+            println("Coming from Settings")
+        }
+        
+        if let aboutUsViewController = unwindSegue.sourceViewController as? AboutUsViewController {
+            println("Coming from About Us")
+        }
+        
+        if let getFreeServiceController = unwindSegue.sourceViewController as? GetFreeServiceViewController {
+            println("Coming from Get Free Service")
+        }
+        
+        
+        
+    }
+
     
 }
 

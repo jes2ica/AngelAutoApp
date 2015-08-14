@@ -26,9 +26,17 @@ import CoreText
 private class FontLoader {
     class func loadFont(name: String) {
         let bundle = NSBundle(forClass: FontLoader.self)
-        let fontURL = bundle.URLForResource(name, withExtension: "otf")
+        var fontURL = NSURL()
+        let identifier = bundle.bundleIdentifier
 
-        let data = NSData(contentsOfURL: fontURL!)!
+        if identifier?.hasPrefix("org.cocoapods") == true {
+            // If this framework is added using CocoaPods, resources is placed under a subdirectory
+            fontURL = bundle.URLForResource(name, withExtension: "otf", subdirectory: "FontAwesome.swift.bundle")!
+        } else {
+            fontURL = bundle.URLForResource(name, withExtension: "otf")!
+        }
+
+        let data = NSData(contentsOfURL: fontURL)!
 
         let provider = CGDataProviderCreateWithCFData(data)
         let font = CGFontCreateWithDataProvider(provider)!
@@ -70,7 +78,7 @@ public extension UIImage {
         let paragraph = NSMutableParagraphStyle()
         paragraph.lineBreakMode = NSLineBreakMode.ByWordWrapping
         paragraph.alignment = .Center
-        let attributedString = NSAttributedString(string: String.fontAwesomeIconWithName(name) as String, attributes: [NSFontAttributeName: UIFont.fontAwesomeOfSize(24.0), NSForegroundColorAttributeName: textColor, NSParagraphStyleAttributeName:paragraph])
+        let attributedString = NSAttributedString(string: String.fontAwesomeIconWithName(name) as String, attributes: [NSFontAttributeName: UIFont.fontAwesomeOfSize(max(size.width, size.height)), NSForegroundColorAttributeName: textColor, NSParagraphStyleAttributeName:paragraph])
         let size = sizeOfAttributeString(attributedString, size.width)
         UIGraphicsBeginImageContextWithOptions(size, false , 0.0)
         attributedString.drawInRect(CGRectMake(0, 0, size.width, size.height))

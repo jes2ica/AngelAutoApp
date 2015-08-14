@@ -1,0 +1,6 @@
+framework module BranchInvite {
+  umbrella header "Pods-BranchInvite-umbrella.h"
+
+  export *
+  module * { export * }
+}

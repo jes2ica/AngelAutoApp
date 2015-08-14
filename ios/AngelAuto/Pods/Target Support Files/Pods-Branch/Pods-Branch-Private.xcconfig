@@ -1,0 +1,9 @@
+#include "Pods-Branch.xcconfig"
+CONFIGURATION_BUILD_DIR = $PODS_FRAMEWORK_BUILD_PATH
+FRAMEWORK_SEARCH_PATHS = "$PODS_FRAMEWORK_BUILD_PATH"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Branch" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bolts" "${PODS_ROOT}/Headers/Public/Branch" "${PODS_ROOT}/Headers/Public/BranchInvite" "${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/Public/Font-Awesome-Swift" "${PODS_ROOT}/Headers/Public/FontAwesome.swift" "${PODS_ROOT}/Headers/Public/GoogleMaps" "${PODS_ROOT}/Headers/Public/HMSegmentedControl" "${PODS_ROOT}/Headers/Public/Parse" "${PODS_ROOT}/Headers/Public/ParseUI" "${PODS_ROOT}/Headers/Public/PayPal-iOS-SDK" "${PODS_ROOT}/Headers/Public/YRADScrollView"
+OTHER_LDFLAGS = ${PODS_BRANCH_OTHER_LDFLAGS} -ObjC
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

@@ -48,8 +48,26 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Bolts.framework'
+  install_framework 'Branch.framework'
+  install_framework 'BranchInvite.framework'
+  install_framework 'FacebookSDK.framework'
+  install_framework 'Font_Awesome_Swift.framework'
   install_framework 'FontAwesome_swift.framework'
+  install_framework 'HMSegmentedControl.framework'
+  install_framework 'Parse.framework'
+  install_framework 'ParseUI.framework'
+  install_framework 'YRADScrollView.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Bolts.framework'
+  install_framework 'Branch.framework'
+  install_framework 'BranchInvite.framework'
+  install_framework 'FacebookSDK.framework'
+  install_framework 'Font_Awesome_Swift.framework'
   install_framework 'FontAwesome_swift.framework'
+  install_framework 'HMSegmentedControl.framework'
+  install_framework 'Parse.framework'
+  install_framework 'ParseUI.framework'
+  install_framework 'YRADScrollView.framework'
 fi
